@@ -18,38 +18,111 @@
             <li><a href="index.html">Trang chủ</a></li>
             <li><a href="about.html">Về tôi</a></li>
             <li><a href="contact.html">Liên hệ</a></li>
+            <li><a href="https://github.com/vuminh1310/lab1" target="_blank" rel="noopener">GitHub Repo</a></li>
         </ul>
     </nav>
 
     <main>
+        <!-- Ảnh đại diện dùng <figure> + <figcaption> và alt mô tả rõ -->
         <section>
-            <h2>Thông tin cá nhân</h2>
+            <h2>Ảnh đại diện</h2>
+            <figure>
+                <img src="https://via.placeholder.com/150" alt="Ảnh chân dung đại diện của sinh viên Lưu Ngọc Minh Vũ">
+                <figcaption>Chân dung Lưu Ngọc Minh Vũ - Sinh viên Công nghệ Thông tin</figcaption>
+            </figure>
+        </section>
+
+        <!-- Thông tin cá nhân & Thêm <dl> liệt kê 3 cặp thuật ngữ – định nghĩa kỹ năng -->
+        <section>
+            <h2>Về tôi</h2>
             <p><strong>Quê quán:</strong> [Nhập quê quán của bạn vào đây]</p>
             <p><strong>Ngành học:</strong> Công nghệ Thông tin</p>
             <p><strong>Năm học:</strong> Năm 2 / Năm 3</p>
+            <p>Chào bạn, tôi là một sinh viên chuyên ngành Công nghệ Thông tin, luôn đam mê tìm hiểu các công nghệ lập trình mới và phát triển phần mềm.</p>
+            
+            <h3>Thuật ngữ chuyên môn</h3>
+            <dl>
+                <dt>HTML5 Semantic</dt>
+                <dd>Các thẻ ngữ nghĩa giúp định nghĩa rõ ràng cấu trúc và ý nghĩa của các thành phần trang web.</dd>
+                <dt>CSS3 Flexbox</dt>
+                <dd>Mô hình bố cục giúp sắp xếp, căn chỉnh các phần tử trên giao diện một cách linh hoạt.</dd>
+                <dt>Git Version Control</dt>
+                <dd>Hệ thống quản lý phiên bản giúp lưu lịch sử code và phối hợp làm việc nhóm hiệu quả.</dd>
+            </dl>
         </section>
 
+        <!-- Phần 'Kỹ năng': dùng <ul> liệt kê ít nhất 4 kỹ năng -->
         <section>
-            <h2>Sở thích</h2>
+            <h2>Kỹ năng</h2>
             <ul>
-                <li>Lập trình và tìm hiểu công nghệ mới</li>
-                <li>Đọc sách chuyên ngành và tài liệu kỹ thuật</li>
-                <li>Nghe nhạc và chơi thể thao</li>
+                <li>HTML5 / CSS3: Xây dựng và thiết kế giao diện web chuẩn Semantic.</li>
+                <li>Git / GitHub: Quản lý mã nguồn dự án cá nhân và nhóm.</li>
+                <li>Lập trình C#: Phát triển ứng dụng hướng đối tượng (OOP).</li>
+                <li>Cơ sở dữ liệu: Truy vấn dữ liệu với SQL Server.</li>
             </ul>
         </section>
 
+        <!-- Phần 'Lộ trình học tập': dùng <ol> liệt kê 3 bước trong học kỳ này -->
         <section>
-            <h2>Mục tiêu học kỳ này</h2>
+            <h2>Lộ trình học tập</h2>
             <ol>
-                <li>Hoàn thành xuất sắc các đồ án và bài tập lớn trong học kỳ</li>
-                <li>Nâng cao tay nghề lập trình C# và phát triển web</li>
-                <li>Đạt điểm số cao ở tất cả các môn học chuyên ngành</li>
+                <li>Nắm vững kiến thức cốt lõi về lập trình web front-end và cấu trúc HTML5 nâng cao.</li>
+                <li>Hoàn thành xuất sắc các bài tập lớn, đồ án C# và cơ sở dữ liệu đúng hạn.</li>
+                <li>Xây dựng hoàn thiện trang Portfolio cá nhân để chuẩn bị đi thực tập Fresher.</li>
             </ol>
+        </section>
+
+        <!-- Phần 'Môn học': bảng có caption, thead, tbody, tfoot, colspan và rowspan -->
+        <section>
+            <h2>Môn học</h2>
+            <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+                <caption>Bảng thông tin các môn học trong học kỳ này</caption>
+                <thead>
+                    <tr>
+                        <th>STT</th>
+                        <th>Nhóm môn</th>
+                        <th>Tên môn học</th>
+                        <th>Số tín chỉ</th>
+                        <th>Trạng thái</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td rowspan="2">Chuyên ngành CNTT</td>
+                        <td>Lập trình Web</td>
+                        <td>3</td>
+                        <td>Đang học</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Cơ sở dữ liệu</td>
+                        <td>3</td>
+                        <td>Đang học</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Kỹ năng mềm</td>
+                        <td>Kỹ năng phỏng vấn & Làm việc nhóm</td>
+                        <td>2</td>
+                        <td>Đã hoàn thành</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3" style="text-align: right; font-weight: bold;">Tổng số tín chỉ học kỳ:</td>
+                        <td colspan="2" style="font-weight: bold;">8 tín chỉ</td>
+                    </tr>
+                </tfoot>
+            </table>
         </section>
     </main>
 
     <footer>
-        <address>Email: contact@minhvu.dev</address>
+        <address>
+            Email: <a href="mailto:contact@minhvu.dev">contact@minhvu.dev</a> | 
+            Điện thoại: <a href="tel:0123456789">0123 456 789</a>
+        </address>
         <p>&copy; 2026 Lưu Ngọc Minh Vũ. Bảo lưu mọi quyền.</p>
     </footer>
 
