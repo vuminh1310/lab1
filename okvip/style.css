@@ -1,0 +1,109 @@
+/* Thiết lập chung và reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* 1. Header */
+header {
+    background-color: #0066cc;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+/* 2. Navigation (Menu điều hướng) */
+nav {
+    background-color: #222;
+    padding: 12px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #4da6ff;
+    text-decoration: underline;
+}
+
+/* 3. Main Content (Nội dung chính) */
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+section {
+    background: white;
+    padding: 25px 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+section h2 {
+    color: #0066cc;
+    margin-bottom: 15px;
+    font-size: 20px;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 8px;
+}
+
+section p {
+    margin-bottom: 10px;
+}
+
+section ul, section ol {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+section li {
+    margin-bottom: 6px;
+}
+
+/* 4. Footer (Chân trang) */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+footer address {
+    font-style: normal;
+    margin-bottom: 5px;
+    color: #ccc;
+}
